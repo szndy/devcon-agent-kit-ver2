@@ -4,6 +4,8 @@ Turn a one-line product idea into a full set of **development-ready planning doc
 
 It's built for hackathons, workshops, and jumpstarting real projects: describe what you want to build in one sentence, run one command, and get clean Markdown docs an engineering team can execute from directly.
 
+> **Looking for this project's own requirements?** See [`PRD.md`](PRD.md) — the Product Requirements Document for the Jumpstart Kit itself (problem statement, goals, functional/non-functional requirements, success metrics, current scope, and roadmap). This README stays focused on installing and using the kit.
+
 ---
 
 ## Table of contents
@@ -444,6 +446,7 @@ The PRD's feature specs use `Given/When/Then` acceptance criteria and a WCAG 2.2
 ```
 devcon-agent-kit-codecamp/
 ├── README.md
+├── PRD.md                                    # this project's own Product Requirements Document
 ├── scripts/install.sh                       # symlinks core + a tool's adapter INTO the repo root
 ├── core/                                     # ---- PORTABLE BRAIN (tool-agnostic) ----
 │   ├── AGENTS.md                             # shared house rules

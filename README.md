@@ -1,8 +1,8 @@
 # DEVCON Jumpstart Agent Kit
 
-Turn a one-line product idea into a full set of **development-ready planning documents** — a PRD, a user-flow, an architecture decision record, and a design system — using **free-tier AI models**, inside whichever agent CLI you already use (**OpenCode**, **Claude Code**, or **Cursor**).
+A jumpstart kit **built for the DEVCON community** — for members starting their next hackathon entry, code-camp project, workshop build, or personal/community initiative. Turn a one-line product idea into a full set of **development-ready planning documents** — a PRD, a user-flow, an architecture decision record, and a design system — using **free-tier AI models**, inside whichever agent CLI you already use (**OpenCode**, **Claude Code**, or **Cursor**).
 
-It's built for hackathons, workshops, and jumpstarting real projects: describe what you want to build in one sentence, run one command, and get clean Markdown docs an engineering team can execute from directly.
+It's built for hackathons, workshops, and jumpstarting real projects: describe what you want to build in one sentence, run one command, and get clean Markdown docs a DEVCON team can execute from directly — no paid tools required to get started.
 
 > **Looking for this project's own requirements?** See [`PRD.md`](PRD.md) — the Product Requirements Document for the Jumpstart Kit itself (problem statement, goals, functional/non-functional requirements, success metrics, current scope, and roadmap). This README stays focused on installing and using the kit.
 
@@ -129,8 +129,8 @@ Every path runs the exact same commands (`/jumpstart`, `/blueprint`, …) once s
 1. **Install OpenCode.** Follow [opencode.ai/docs](https://opencode.ai/docs) (one-line install script or `npm install -g opencode-ai`, per their docs).
 2. **Clone this repo and install the OpenCode adapter:**
    ```bash
-   git clone https://github.com/szndy/devcon-agent-kit-codecamp.git
-   cd devcon-agent-kit-codecamp
+   git clone https://github.com/szndy/DEVCON-community-agent-kit-ver2.git
+   cd DEVCON-community-agent-kit-ver2
    ./scripts/install.sh opencode
    ```
 3. **Get a free API key** from [OpenRouter](https://openrouter.ai/keys) or [Groq](https://console.groq.com/keys) — both offer free-tier models, no card required.
@@ -158,8 +158,8 @@ No separate API key step — both tools use the model access that comes with you
 1. Install Claude Code and sign in with your Claude subscription: [docs.claude.com/en/docs/claude-code](https://docs.claude.com/en/docs/claude-code).
 2. Clone this repo and install the Claude Code adapter:
    ```bash
-   git clone https://github.com/szndy/devcon-agent-kit-codecamp.git
-   cd devcon-agent-kit-codecamp
+   git clone https://github.com/szndy/DEVCON-community-agent-kit-ver2.git
+   cd DEVCON-community-agent-kit-ver2
    ./scripts/install.sh claude
    ```
 3. Open Claude Code at the repo root (`claude`), then run `/jumpstart <your idea>` or `/blueprint <your idea>`.
@@ -168,8 +168,8 @@ No separate API key step — both tools use the model access that comes with you
 1. Install [Cursor](https://cursor.com) and sign in with your subscription.
 2. Clone this repo and install the Cursor adapter:
    ```bash
-   git clone https://github.com/szndy/devcon-agent-kit-codecamp.git
-   cd devcon-agent-kit-codecamp
+   git clone https://github.com/szndy/DEVCON-community-agent-kit-ver2.git
+   cd DEVCON-community-agent-kit-ver2
    ./scripts/install.sh cursor
    ```
 3. Open the repo folder in Cursor, then type `/blueprint <your idea>` in chat. If `.cursor/commands` doesn't surface slash commands in your Cursor version, just type plain text like `blueprint <your idea>` — the `.cursor/rules` guidance picks it up.
@@ -183,8 +183,8 @@ Either way, full command reference and examples are in [Usage](#usage); install 
 Clone the repo, then run the installer for your tool from the repo root. It symlinks the portable `core/` and your tool's adapter **into the repo root**, so the tool is runnable there directly.
 
 ```bash
-git clone https://github.com/szndy/devcon-agent-kit-codecamp.git
-cd devcon-agent-kit-codecamp
+git clone https://github.com/szndy/DEVCON-community-agent-kit-ver2.git
+cd DEVCON-community-agent-kit-ver2
 
 ./scripts/install.sh opencode      # or: claude | cursor | all
 ```
@@ -444,7 +444,7 @@ The PRD's feature specs use `Given/When/Then` acceptance criteria and a WCAG 2.2
 ## Directory structure
 
 ```
-devcon-agent-kit-codecamp/
+DEVCON-community-agent-kit-ver2/
 ├── README.md
 ├── PRD.md                                    # this project's own Product Requirements Document
 ├── scripts/install.sh                       # symlinks core + a tool's adapter INTO the repo root
@@ -494,4 +494,4 @@ Nothing existing changes.
 
 ---
 
-Built for DEVCON. Idea in, blueprint out.
+Built for the DEVCON community. Idea in, blueprint out.

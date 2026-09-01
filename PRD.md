@@ -9,13 +9,13 @@ source: README.md, devcon-jumpstart-build-brief.md, core/skills/*, adapters/*
 
 ## 1. Summary
 
-The Jumpstart Kit turns a one-line product idea into a set of **development-ready planning documents** — a PRD, a user flow, an architecture decision record, a design system, and optionally a time-boxed MVP scope, runnable starter code, and a demo-day pitch deck — generated inside an existing agent CLI (OpenCode, Claude Code, or Cursor) on free-tier or subscription models.
+The Jumpstart Kit is built **for the DEVCON community**, so members can jumpstart the project they're about to build rather than start from a blank page. It turns a one-line product idea into a set of **development-ready planning documents** — a PRD, a user flow, an architecture decision record, a design system, and optionally a time-boxed MVP scope, runnable starter code, and a demo-day pitch deck — generated inside an existing agent CLI (OpenCode, Claude Code, or Cursor) on free-tier or subscription models.
 
-It exists to remove the "blank page" hour at the start of a hackathon, code camp, or new internal project: one sentence and one command produce documents a team can actually start building from, not a vague brainstorm.
+It exists to remove the "blank page" hour at the start of a DEVCON hackathon, code camp, workshop, or community project: one sentence and one command produce documents a team can actually start building from, not a vague brainstorm.
 
 ## 2. Problem statement
 
-Teams starting a new build — especially under a time limit (hackathons, DEVCON code camps, short internal sprints) — lose disproportionate time to:
+DEVCON community members starting a new build — especially under a time limit (hackathons, code camps, workshops, short community sprints) — lose disproportionate time to:
 
 - Writing a PRD from scratch, or skipping it and building on an unclear spec.
 - Producing a user flow that's either hand-drawn (slow, inconsistent) or skipped entirely.
@@ -43,9 +43,11 @@ Generic "ask an LLM to write a PRD" prompting produces inconsistent structure, h
 
 ## 5. Target users
 
-- **Hackathon / code-camp participants** who need a working plan and stack decided within the first hour of a fixed time budget.
+The primary audience is **the DEVCON community** — this kit is built for and distributed to DEVCON members to jumpstart the projects they're going to build, not a general-purpose public product.
+
+- **DEVCON hackathon / code-camp participants** who need a working plan and stack decided within the first hour of a fixed time budget.
 - **DEVCON workshop facilitators** running multiple teams through the same idea-to-build pipeline.
-- **Individual developers / small teams** jumpstarting a real side project or internal tool from a one-line idea.
+- **Individual DEVCON members / small community teams** jumpstarting a real side project, chapter initiative, or internal tool from a one-line idea.
 
 ## 6. Guiding principle
 
